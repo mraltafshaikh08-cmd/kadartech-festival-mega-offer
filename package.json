@@ -1,0 +1,22 @@
+{
+  "name": "kadartech-festival-mega-offer",
+  "version": "1.0.0",
+  "description": "KADARTECH Solutions - Festival Season Mega Offer 2026 Landing Page & IT Services Platform",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve . -l 3000",
+    "build": "echo 'Ready for Vercel Static & Serverless deployment'"
+  },
+  "keywords": [
+    "kadartech",
+    "web-development",
+    "it-services",
+    "festival-offer-2026",
+    "agency-landing-page",
+    "tailwind",
+    "vercel"
+  ],
+  "author": "KADARTECH Solutions",
+  "license": "MIT"
+}
