@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KADARTECH Solutions | Festival Season Mega Offer 2026 - Up to 60% OFF</title>
+  <meta name="description" content="KADARTECH Festival Mega Offer 2026. Get up to 60% OFF on websites, mobile apps, custom software & SaaS. Free AI Chatbot with every package. Book your slot now!" />
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="KADARTECH Solutions - Festival Season Mega Offer 2026" />
+  <meta property="og:description" content="Multiple websites, mobile apps, and custom software at unbeatable prices. Free AI Chatbot agent included with every offer!" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              900: '#1e1b4b'
+            },
+            festive: {
+              pink: '#ec4899',
+              purple: '#a855f7',
+              orange: '#f97316',
+              cyan: '#06b6d4'
+            },
+            darkbg: {
+              base: '#07090e',
+              surface: '#0f1422',
+              card: '#141b2d',
+              border: '#1e293b'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Plus Jakarta Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Devicon CDN for Official Tech Stack Logos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-darkbg-base dark:text-slate-100 transition-colors duration-300 font-sans antialiased overflow-x-hidden">
+
+  <!-- TOP PROMOTIONAL ANNOUNCEMENT BAR -->
+  <aside id="promo-banner" aria-label="Special Offer" class="festive-ribbon text-white text-xs sm:text-sm py-2 px-4 shadow-sm relative z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-2 mx-auto font-semibold text-center tracking-wide">
+        <span class="inline-block animate-pulse">🎊</span>
+        <span><strong>FESTIVAL MEGA OFFER 2026</strong> – Up to 60% OFF | Slots Limited | Offer ends in 31 December</span>
+      </div>
+      <button id="close-banner-btn" class="text-white/80 hover:text-white p-1 ml-2 transition-opacity" aria-label="Dismiss banner">
+        <i data-lucide="x" class="w-4 h-4"></i>
+      </button>
+    </div>
+  </aside>
+
+  <!-- STICKY MAIN HEADER / NAVIGATION -->
+  <header class="sticky top-0 z-40 w-full backdrop-blur-xl bg-white/90 dark:bg-[#07090e]/90 border-b border-slate-200/80 dark:border-slate-800/80 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 via-indigo-500 to-festive-pink flex items-center justify-center text-white shadow-lg shadow-brand-500/25 group-hover:scale-105 transition-transform">
+          <i data-lucide="sparkles" class="w-5 h-5"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-heading font-black text-2xl tracking-tight text-slate-900 dark:text-white">
+            KADAR<span class="text-brand-600 dark:text-brand-400">TECH</span>
+          </span>
+          <span class="text-[10px] uppercase font-mono tracking-widest text-slate-500 dark:text-slate-400 -mt-1 font-semibold">
+            Solutions
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold tracking-wider text-slate-600 dark:text-slate-300 uppercase">
+        <a href="#offers" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Offer</a>
+        <a href="#pricing" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Pricing</a>
+        <a href="#bonus" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Bonus</a>
+        <a href="#tech-stack" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Tech Stack</a>
+        <a href="#solutions" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Services</a>
+        <a href="#faq" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">FAQ</a>
+        <a href="#contact" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Contact</a>
+      </nav>
+
+      <!-- Action Area: Dark/Light Mode & Claim Button -->
+      <div class="flex items-center gap-3 sm:gap-4">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="p-2.5 rounded-full border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" aria-label="Toggle Theme">
+          <i data-lucide="moon" class="w-5 h-5 hidden dark:block"></i>
+          <i data-lucide="sun" class="w-5 h-5 block dark:hidden text-amber-500"></i>
+        </button>
+
+        <!-- CTA Claim Button -->
+        <button onclick="openOfferModal('Growth Pack (9 Websites - $600)')" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm px-6 py-2.5 rounded-full shadow-lg shadow-blue-600/30 transition-all hover:scale-105 active:scale-95 flex items-center gap-2">
+          <span>Claim Offers</span>
+          <i data-lucide="sparkles" class="w-4 h-4"></i>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-toggle" class="md:hidden p-2 rounded-xl border border-slate-200 dark:border-slate-800 text-slate-700 dark:text-slate-200" aria-label="Open mobile menu">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden md:hidden px-6 pt-4 pb-6 bg-white dark:bg-[#0f1422] border-b border-slate-200 dark:border-slate-800 space-y-4">
+      <a href="#offers" class="mobile-link block text-base font-semibold text-slate-700 dark:text-slate-200 py-1">Festival Offers</a>
+      <a href="#pricing" class="mobile-link block text-base font-semibold text-slate-700 dark:text-slate-200 py-1">Pricing Packs</a>
+      <a href="#bonus" class="mobile-link block text-base font-semibold text-slate-700 dark:text-slate-200 py-1">Free AI Chatbot</a>
+      <a href="#tech-stack" class="mobile-link block text-base font-semibold text-slate-700 dark:text-slate-200 py-1">20 Tech Stacks</a>
+      <a href="#solutions" class="mobile-link block text-base font-semibold text-slate-700 dark:text-slate-200 py-1">Our Solutions</a>
+      <a href="#faq" class="mobile-link block text-base font-semibold text-slate-700 dark:text-slate-200 py-1">FAQ</a>
+      <a href="#contact" class="mobile-link block text-base font-semibold text-slate-700 dark:text-slate-200 py-1">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- HERO SECTION: FESTIVAL MEGA SEASON OFFER 2026 (Matching Reference Image) -->
+  <!-- ========================================================================= -->
+  <section class="relative pt-12 pb-20 md:py-20 overflow-hidden cyber-grid">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Top Tagline Capsule Badge -->
+      <div class="flex items-center justify-center sm:justify-start mb-6">
+        <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs sm:text-sm font-bold uppercase tracking-wider shadow-sm shadow-blue-500/10">
+          <span>WE TURN IDEA INTO <strong class="text-blue-600 dark:text-blue-300">INTELLIGENT SOFTWARE</strong> AND <strong class="text-blue-600 dark:text-blue-300">DIGITAL SOLUTION.</strong></span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-6 space-y-6 text-center sm:text-left">
+          
+          <!-- Decorative Festive Illustration & Header -->
+          <div class="flex items-center justify-center sm:justify-start gap-3">
+            <span class="text-4xl animate-bounce">🎉</span>
+            <span class="text-3xl">✨</span>
+          </div>
+
+          <h1 class="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-slate-900 dark:text-white tracking-tight leading-[1.15]">
+            FESTIVAL <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500">MEGA SEASON</span><br />
+            OFFER 2026 <span class="inline-block text-3xl sm:text-4xl">🎊</span>
+          </h1>
+
+          <p class="text-slate-600 dark:text-slate-300 text-base sm:text-lg leading-relaxed max-w-xl">
+            You'll only have to read this once... but it could change your business forever. Festival season = new beginnings, new goals, new growth. So <strong class="text-slate-900 dark:text-white font-bold">KADARTECH</strong> brings its <strong class="text-blue-600 dark:text-blue-400 font-bold">BIGGEST OFFER OF THE YEAR</strong>, multiple websites, apps & software at prices you'll never see again.
+          </p>
+
+          <!-- Hero Action CTAs -->
+          <div class="flex flex-wrap items-center justify-center sm:justify-start gap-4 pt-2">
+            <button onclick="openOfferModal('Growth Pack (9 Websites - $600)')" class="bg-blue-600 hover:bg-blue-700 text-white font-bold text-base px-8 py-4 rounded-2xl shadow-xl shadow-blue-600/30 transition-all hover:scale-105 active:scale-95 flex items-center gap-3">
+              <span>Claim Mega Offer -&gt;</span>
+            </button>
+
+            <a href="https://wa.me/919359086445?text=Hello%20KADARTECH%20Solutions%2C%20I%20want%20to%20claim%20the%20Festival%20Mega%20Offer%202026." target="_blank" rel="noopener noreferrer" class="px-8 py-4 rounded-2xl border-2 border-blue-600 text-blue-600 dark:text-blue-400 font-bold text-base bg-white dark:bg-slate-900 hover:bg-blue-50 dark:hover:bg-blue-950/30 transition-all flex items-center gap-2 shadow-sm">
+              <i data-lucide="message-circle" class="w-5 h-5 text-emerald-500"></i>
+              <span>WhatsApp Us</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges Checklist -->
+          <div class="pt-4 flex flex-wrap items-center justify-center sm:justify-start gap-4 sm:gap-6 text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-200">
+            <div class="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400">
+              <i data-lucide="check" class="w-4 h-4"></i>
+              <span>On-Time Delivery</span>
+            </div>
+            <div class="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400">
+              <i data-lucide="check" class="w-4 h-4"></i>
+              <span>Transparent Pricing</span>
+            </div>
+            <div class="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400">
+              <i data-lucide="check" class="w-4 h-4"></i>
+              <span>Dedicated Support</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Mockup & Floating Card (Matching Reference Layout) -->
+        <div class="lg:col-span-6 relative">
+          
+          <!-- Modern Laptop Mockup Frame -->
+          <div class="relative mx-auto max-w-lg lg:max-w-none">
+            <!-- Screen Border -->
+            <div class="bg-slate-900 p-3 sm:p-4 rounded-t-3xl shadow-2xl border border-slate-700">
+              <div class="flex items-center gap-2 mb-2 px-1">
+                <span class="w-2.5 h-2.5 rounded-full bg-red-500 inline-block"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-amber-500 inline-block"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-green-500 inline-block"></span>
+                <span class="text-[11px] font-mono text-slate-400 ml-2 truncate">arthavistagroup.com — KADARTECH Client Showcase</span>
+              </div>
+              <!-- Laptop Screen Content -->
+              <div class="rounded-xl overflow-hidden bg-slate-950 border border-slate-800 relative aspect-[16/10] group">
+                <div class="p-6 text-white bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 h-full flex flex-col justify-between">
+                  <div class="flex items-center justify-between text-xs text-slate-400 border-b border-slate-800 pb-3">
+                    <span class="font-bold tracking-wider text-amber-400">ARTHAVISTA GROUP</span>
+                    <span class="text-xs bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded">Live Enterprise SaaS</span>
+                  </div>
+                  <div>
+                    <span class="text-xs text-blue-400 font-mono">One Vision. Various Strengths.</span>
+                    <h3 class="text-xl sm:text-2xl font-bold font-heading text-white mt-1">Building Value, Inspiring the Future.</h3>
+                    <p class="text-xs text-slate-400 mt-2 line-clamp-2">Arthavista Group is the parent company overseeing strategic business entities with cutting-edge digital infrastructure.</p>
+                  </div>
+                  <div class="grid grid-cols-3 gap-2 pt-2 border-t border-slate-800 text-[10px] text-slate-300 font-mono">
+                    <div>12+ Subsidiaries</div>
+                    <div>3,500+ Professionals</div>
+                    <div>20+ Yrs Exp</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Laptop Base Stand -->
+            <div class="bg-slate-700 h-3 rounded-b-xl w-full mx-auto shadow-md"></div>
+            <div class="bg-slate-800 h-1.5 w-24 mx-auto rounded-b-md"></div>
+
+            <!-- Floating Overlay Card: GROWTH PACK (As featured in Reference Image) -->
+            <div class="sm:absolute sm:-bottom-8 sm:-right-4 mt-6 sm:mt-0 w-full sm:w-72 bg-white dark:bg-[#0f1422] rounded-2xl p-6 border-2 border-blue-500 shadow-2xl shadow-blue-500/20 z-20 float-animation">
+              
+              <!-- 60% Discount Sticker -->
+              <div class="absolute -top-3 -right-3 discount-badge text-white text-[11px] font-black uppercase px-3 py-1.5 rounded-full shadow-lg rotate-12 flex items-center gap-1">
+                <span>DISCOUNT</span>
+                <span class="text-xs">60%</span>
+              </div>
+
+              <div class="text-xs font-mono font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400">MOST POPULAR</div>
+              <h4 class="font-heading font-black text-xl text-slate-900 dark:text-white mt-1">GROWTH PACK</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400">9 Websites for just</p>
+
+              <div class="mt-2 flex items-baseline gap-2">
+                <span class="font-heading font-black text-3xl text-blue-600 dark:text-blue-400">$600</span>
+                <span class="text-xs text-slate-400 line-through">$1,500</span>
+              </div>
+              <div class="text-[11px] font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded mt-1 inline-block">
+                = $66 / website — never again price
+              </div>
+
+              <ul class="mt-4 space-y-2 text-xs font-medium text-slate-600 dark:text-slate-300">
+                <li class="flex items-center gap-2">
+                  <span class="text-amber-500">⚡</span>
+                  <span>5-Day Delivery</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="text-blue-500">🚀</span>
+                  <span>Custom Scope Flexibility</span>
+                </li>
+                <li class="flex items-center gap-2">
+                  <span class="text-purple-500">👔</span>
+                  <span>Dedicated Account Manager</span>
+                </li>
+                <li class="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold">
+                  <span>🎁</span>
+                  <span>FREE AI Chatbot Included</span>
+                </li>
+              </ul>
+
+              <button onclick="openOfferModal('Growth Pack (9 Websites - $600)')" class="mt-5 w-full py-2.5 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold text-xs uppercase tracking-wider shadow-md transition-transform hover:scale-[1.02] flex items-center justify-center gap-1.5">
+                <span>GET THIS OFFER -&gt;</span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- URGENCY & COUNTDOWN RIBBON (Matching Bottom Ribbon of Reference Image) -->
+  <!-- ========================================================================= -->
+  <section class="bg-gradient-to-r from-purple-700 via-pink-600 to-purple-800 text-white py-6 px-4 relative overflow-hidden shadow-inner">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+      
+      <div>
+        <div class="flex items-center justify-center md:justify-start gap-2 text-xl sm:text-2xl font-black font-heading tracking-wide">
+          <span>⏰</span>
+          <span>Offer Valid Till 31 December 2026</span>
+        </div>
+        <p class="text-purple-100 text-xs sm:text-sm font-medium mt-1">
+          Order queues fill fast in festival season — first booked, first served
+        </p>
+      </div>
+
+      <!-- Live Interactive Countdown Timer -->
+      <div class="flex items-center gap-3 font-mono">
+        <div class="bg-black/30 backdrop-blur-md rounded-xl px-3 py-2 border border-white/20 min-w-[64px] text-center">
+          <span id="cd-days" class="text-2xl font-black block">60</span>
+          <span class="text-[10px] uppercase text-purple-200 tracking-wider">Days</span>
+        </div>
+        <span class="text-2xl font-bold">:</span>
+        <div class="bg-black/30 backdrop-blur-md rounded-xl px-3 py-2 border border-white/20 min-w-[64px] text-center">
+          <span id="cd-hours" class="text-2xl font-black block">14</span>
+          <span class="text-[10px] uppercase text-purple-200 tracking-wider">Hours</span>
+        </div>
+        <span class="text-2xl font-bold">:</span>
+        <div class="bg-black/30 backdrop-blur-md rounded-xl px-3 py-2 border border-white/20 min-w-[64px] text-center">
+          <span id="cd-mins" class="text-2xl font-black block">30</span>
+          <span class="text-[10px] uppercase text-purple-200 tracking-wider">Mins</span>
+        </div>
+        <span class="text-2xl font-bold">:</span>
+        <div class="bg-black/30 backdrop-blur-md rounded-xl px-3 py-2 border border-white/20 min-w-[64px] text-center">
+          <span id="cd-secs" class="text-2xl font-black block">45</span>
+          <span class="text-[10px] uppercase text-purple-200 tracking-wider">Secs</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 5 FESTIVAL MEGA DEALS (All 5 Packages from Upgrade Template) -->
+  <!-- ========================================================================= -->
+  <section id="offers" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-600 dark:text-purple-400 text-xs font-semibold uppercase tracking-wider mb-3">
+          <i data-lucide="tag" class="w-3.5 h-3.5"></i>
+          <span>Biggest Offer of the Year</span>
+        </div>
+        <h2 class="font-heading font-black text-3xl sm:text-4xl lg:text-5xl text-slate-900 dark:text-white mb-4">
+          Choose Your Festival Growth Package
+        </h2>
+        <p class="text-slate-600 dark:text-slate-300 text-base sm:text-lg">
+          "You were only thinking about one website until now? Now create multiple websites, apps & software at lower prices with unprecedented speed."
+        </p>
+      </div>
+
+      <!-- Pricing / Deals Grid -->
+      <div id="pricing" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+        
+        <!-- OFFER 1: STARTER PACK -->
+        <div class="glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 flex flex-col justify-between relative group hover:border-blue-500 transition-all hover:-translate-y-1 hover:shadow-xl">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-2xl">🎖️</span>
+              <span class="text-xs font-mono font-bold uppercase text-blue-600 dark:text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full">
+                ~60% Less Than Market
+              </span>
+            </div>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white">STARTER PACK</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">3 Full Websites for Brands & Small Businesses</p>
+            
+            <div class="mt-6 flex items-baseline gap-2">
+              <span class="font-heading font-black text-4xl text-slate-900 dark:text-white">$250</span>
+              <span class="text-sm font-semibold text-blue-600 dark:text-blue-400">($83 / website)</span>
+            </div>
+
+            <ul class="mt-6 space-y-3 text-sm text-slate-600 dark:text-slate-300">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> <strong>5-Day Delivery</strong> (Fastest in industry)</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Priority Delivery Queue</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Advanced Customization</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Dedicated Support Channel</li>
+              <li class="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold"><i data-lucide="gift" class="w-4 h-4 text-emerald-500"></i> FREE AI Chatbot Included</li>
+            </ul>
+
+            <div class="mt-4 p-3 bg-slate-100 dark:bg-slate-900/60 rounded-xl text-xs text-slate-500 dark:text-slate-400">
+              <strong>Perfect for:</strong> Small businesses, startups, and founders managing multiple brands.
+            </div>
+          </div>
+
+          <button onclick="openOfferModal('Starter Pack (3 Websites - $250)')" class="mt-8 w-full py-3.5 rounded-xl border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white font-bold text-sm uppercase tracking-wider transition-all">
+            Claim Starter Pack
+          </button>
+        </div>
+
+        <!-- OFFER 2: GROWTH PACK (FEATURED DEAL) -->
+        <div class="glass-card rounded-3xl p-8 border-2 border-purple-500 dark:border-purple-400 bg-gradient-to-b from-purple-500/10 via-transparent to-transparent flex flex-col justify-between relative group hover:shadow-2xl hover:shadow-purple-500/20 -translate-y-2">
+          
+          <!-- Discount Sticker -->
+          <div class="absolute -top-4 right-6 discount-badge text-white text-xs font-black uppercase px-4 py-1.5 rounded-full shadow-lg flex items-center gap-1.5">
+            <span>DISCOUNT 60%</span>
+            <span>⭐</span>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-2xl">🚀</span>
+              <span class="text-xs font-mono font-bold uppercase text-purple-600 dark:text-purple-300 bg-purple-500/20 px-3 py-1 rounded-full">
+                BEST AGENCY VALUE
+              </span>
+            </div>
+            <h3 class="font-heading font-black text-2xl text-slate-900 dark:text-white">GROWTH PACK</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">9 Full Websites for Scalers & Agencies</p>
+            
+            <div class="mt-6 flex items-baseline gap-2">
+              <span class="font-heading font-black text-4xl text-purple-600 dark:text-purple-400">$600</span>
+              <span class="text-sm font-semibold text-amber-500">($66 / website)</span>
+            </div>
+            <div class="text-xs text-slate-400 line-through">Regular Price: $1,500</div>
+
+            <ul class="mt-6 space-y-3 text-sm text-slate-600 dark:text-slate-300">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-purple-500"></i> <strong>5-Day Delivery</strong> Sprint</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-purple-500"></i> Custom Scope Flexibility</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-purple-500"></i> Dedicated Account Manager Assigned</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-purple-500"></i> 24/7 Priority Support & SLA</li>
+              <li class="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold"><i data-lucide="gift" class="w-4 h-4 text-emerald-500"></i> FREE AI Chatbot in Every Site</li>
+            </ul>
+
+            <div class="mt-4 p-3 bg-purple-500/10 rounded-xl text-xs text-purple-700 dark:text-purple-300">
+              <strong>Perfect for:</strong> Digital marketing agencies, franchises, and scaling businesses serving multiple clients.
+            </div>
+          </div>
+
+          <button onclick="openOfferModal('Growth Pack (9 Websites - $600)')" class="mt-8 w-full py-4 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold text-sm uppercase tracking-wider shadow-lg shadow-purple-500/30 transition-all hover:scale-105">
+            Claim Growth Pack ($600)
+          </button>
+        </div>
+
+        <!-- OFFER 3: SINGLE WEBSITE -->
+        <div class="glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 flex flex-col justify-between relative group hover:border-emerald-500 transition-all hover:-translate-y-1 hover:shadow-xl">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-2xl">💼</span>
+              <span class="text-xs font-mono font-bold uppercase text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full">
+                Superfast Launch
+              </span>
+            </div>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white">SINGLE WEBSITE</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">1 Modern High-Converting Business Website</p>
+            
+            <div class="mt-6 flex items-baseline gap-2">
+              <span class="font-heading font-black text-4xl text-slate-900 dark:text-white">$100</span>
+              <span class="text-sm font-semibold text-emerald-500">Only</span>
+            </div>
+
+            <ul class="mt-6 space-y-3 text-sm text-slate-600 dark:text-slate-300">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> <strong>3-Day Superfast Delivery</strong></li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Priority Support Channel</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> Full Custom Responsive Development</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-500"></i> SEO & Speed Optimization</li>
+              <li class="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold"><i data-lucide="gift" class="w-4 h-4 text-emerald-500"></i> FREE AI Chatbot Included</li>
+            </ul>
+
+            <div class="mt-4 p-3 bg-slate-100 dark:bg-slate-900/60 rounded-xl text-xs text-slate-500 dark:text-slate-400">
+              <strong>Perfect for:</strong> Solo founders, professionals, clinics, and local stores seeking a modern web presence.
+            </div>
+          </div>
+
+          <button onclick="openOfferModal('Single Website - $100')" class="mt-8 w-full py-3.5 rounded-xl border-2 border-emerald-600 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-600 hover:text-white font-bold text-sm uppercase tracking-wider transition-all">
+            Claim Single Website ($100)
+          </button>
+        </div>
+
+        <!-- OFFER 4: MOBILE APPLICATION -->
+        <div class="glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 flex flex-col justify-between relative group hover:border-cyan-500 transition-all hover:-translate-y-1 hover:shadow-xl">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-2xl">📱</span>
+              <span class="text-xs font-mono font-bold uppercase text-cyan-600 dark:text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full">
+                Android + iOS
+              </span>
+            </div>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white">MOBILE APPLICATION</h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Cross-Platform Native Experience</p>
+            
+            <div class="mt-6 flex items-baseline gap-2">
+              <span class="text-xs text-slate-400">Starting at</span>
+              <span class="font-heading font-black text-4xl text-slate-900 dark:text-white">$120</span>
+            </div>
+
+            <ul class="mt-6 space-y-3 text-sm text-slate-600 dark:text-slate-300">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-500"></i> <strong>10 Days Delivery</strong></li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-500"></i> Android + iOS Cross Platform</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-500"></i> Backend & Admin Panel Included</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-500"></i> Full Source Code Delivery</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-500"></i> Scalable Microservice Architecture</li>
+              <li class="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold"><i data-lucide="gift" class="w-4 h-4 text-emerald-500"></i> FREE AI Chatbot Integration</li>
+            </ul>
+
+            <div class="mt-4 p-3 bg-slate-100 dark:bg-slate-900/60 rounded-xl text-xs text-slate-500 dark:text-slate-400">
+              <strong>Impact:</strong> Literally set up your business in your customers' pockets.
+            </div>
+          </div>
+
+          <button onclick="openOfferModal('Mobile Application (Starting $120)')" class="mt-8 w-full py-3.5 rounded-xl border-2 border-cyan-600 text-cyan-600 dark:text-cyan-400 hover:bg-cyan-600 hover:text-white font-bold text-sm uppercase tracking-wider transition-all">
+            Claim Mobile App Deal
+          </button>
+        </div>
+
+        <!-- OFFER 5: CUSTOM SOFTWARE / SAAS -->
+        <div class="glass-card rounded-3xl p-8 border border-slate-200 dark:border-slate-800 flex flex-col justify-between relative group hover:border-amber-500 transition-all hover:-translate-y-1 hover:shadow-xl md:col-span-2 lg:col-span-2">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-2xl">⚙️</span>
+              <span class="text-xs font-mono font-bold uppercase text-amber-600 dark:text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full">
+                Complete Ownership & Zero Monthly Fees
+              </span>
+            </div>
+            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
+              <div>
+                <h3 class="font-heading font-black text-2xl sm:text-3xl text-slate-900 dark:text-white">CUSTOM SOFTWARE / SAAS TOOL</h3>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Built Exactly to Your Specific Business Requirements</p>
+              </div>
+              <div class="mt-4 sm:mt-0 flex items-baseline gap-2">
+                <span class="font-heading font-black text-4xl text-amber-500">$800</span>
+                <span class="text-xs text-slate-400 line-through">$2,500</span>
+              </div>
+            </div>
+
+            <p class="text-sm text-slate-600 dark:text-slate-300 mt-4 leading-relaxed">
+              We'll build you software you pay expensive monthly subscriptions for in the marketplace — like customized CRM systems, booking portals, automation dashboards, and SaaS platforms — in one go with 100% full code ownership.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6 text-sm text-slate-600 dark:text-slate-300">
+              <div class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-500"></i> Web, Desktop, or Cloud SaaS</div>
+              <div class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-500"></i> Complete Source Code Delivery</div>
+              <div class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-500"></i> Advanced Development Support</div>
+              <div class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-500"></i> Comprehensive Post-Delivery Warranty</div>
+              <div class="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold sm:col-span-2"><i data-lucide="gift" class="w-4 h-4 text-emerald-500"></i> FREE AI Chatbot & Lead Generation Agent Included</div>
+            </div>
+          </div>
+
+          <div class="mt-8 flex flex-col sm:flex-row items-center gap-4">
+            <button onclick="openOfferModal('Custom Software / SaaS ($800)')" class="w-full sm:w-auto py-3.5 px-8 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-sm uppercase tracking-wider transition-all shadow-lg shadow-amber-500/20">
+              Claim Custom Software Offer ($800)
+            </button>
+            <span class="text-xs text-slate-500 dark:text-slate-400">Includes architecture review & live demo</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- BONUS SECTION: FREE AI CHATBOT IN EVERY OFFER -->
+  <!-- ========================================================================= -->
+  <section id="bonus" class="py-20 relative bg-gradient-to-b from-blue-900/10 via-purple-900/10 to-transparent">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="glass-card rounded-3xl p-8 sm:p-12 border-2 border-emerald-500/40 relative overflow-hidden">
+        
+        <div class="absolute top-0 right-0 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <div class="lg:col-span-8 space-y-4">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-bold uppercase tracking-wider">
+              <span>🎁 LIMITED-TIME FREE FESTIVAL BONUS</span>
+            </div>
+            
+            <h3 class="font-heading font-black text-3xl sm:text-4xl text-slate-900 dark:text-white">
+              Free Autonomous AI Chatbot Included In Every Single Offer
+            </h3>
+
+            <p class="text-slate-600 dark:text-slate-300 text-base leading-relaxed">
+              No matter which package you choose, you'll get an intelligent AI Chatbot agent built specifically for your brand absolutely free ($300 standalone value).
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
+              <div class="p-4 rounded-2xl bg-white/60 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800">
+                <div class="text-2xl mb-1">🤖</div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">24/7 Autonomous Replies</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Instant, human-like answers for visitors at any hour.</p>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-white/60 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800">
+                <div class="text-2xl mb-1">🎯</div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">Automatic Lead Capture</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Captures names & WhatsApp numbers directly to your inbox.</p>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-white/60 dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800">
+                <div class="text-2xl mb-1">📉</div>
+                <h4 class="font-bold text-sm text-slate-900 dark:text-white">Halve Support Costs</h4>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Solves 70% of standard customer inquiries without human help.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-4 flex flex-col items-center justify-center text-center p-6 rounded-2xl bg-emerald-500/10 border border-emerald-500/30">
+            <span class="text-5xl mb-2">🎁</span>
+            <span class="text-xs font-mono uppercase tracking-widest text-emerald-500 font-bold">Standard Value $300</span>
+            <span class="text-4xl font-black text-emerald-400 mt-1">100% FREE</span>
+            <span class="text-xs text-slate-400 mt-1">Included with every offer booked before Dec 31</span>
+            <button onclick="openOfferModal('Growth Pack with Free AI Chatbot')" class="mt-5 px-6 py-2.5 rounded-full bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold text-xs uppercase tracking-wider transition-all">
+              Claim With Free Chatbot
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 4-PILLAR KADARTECH GUARANTEE -->
+  <!-- ========================================================================= -->
+  <section class="py-16 border-y border-slate-200 dark:border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-10">
+        <span class="text-xs font-mono font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">🔒 Zero Risk Commitment</span>
+        <h3 class="font-heading font-black text-2xl sm:text-3xl text-slate-900 dark:text-white mt-1">The KADARTECH Guarantee</h3>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="p-6 rounded-2xl bg-white dark:bg-[#0f1422] border border-slate-200 dark:border-slate-800 flex items-start gap-4">
+          <div class="text-3xl">✨</div>
+          <div>
+            <h4 class="font-heading font-bold text-base text-slate-900 dark:text-white">100% Satisfaction</h4>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Complete support up to revision until you are entirely satisfied with your project.</p>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-white dark:bg-[#0f1422] border border-slate-200 dark:border-slate-800 flex items-start gap-4">
+          <div class="text-3xl">💎</div>
+          <div>
+            <h4 class="font-heading font-bold text-base text-slate-900 dark:text-white">Transparent Pricing</h4>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Zero hidden charges, surprise fees, or recurring traps. What you see is what you pay.</p>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-white dark:bg-[#0f1422] border border-slate-200 dark:border-slate-800 flex items-start gap-4">
+          <div class="text-3xl">🏆</div>
+          <div>
+            <h4 class="font-heading font-bold text-base text-slate-900 dark:text-white">Experienced Team</h4>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Zero compromise on code quality, responsiveness, security, and performance standards.</p>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-white dark:bg-[#0f1422] border border-slate-200 dark:border-slate-800 flex items-start gap-4">
+          <div class="text-3xl">⚡</div>
+          <div>
+            <h4 class="font-heading font-bold text-base text-slate-900 dark:text-white">On-Time Delivery</h4>
+            <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Our sacred promise: every sprint is delivered on schedule without unwarranted delays.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 20 TECH STACK EXPERTISE (WITH OFFICIAL ICONS & LOGOS) -->
+  <!-- ========================================================================= -->
+  <section id="tech-stack" class="py-24 relative bg-slate-100/50 dark:bg-slate-900/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs font-semibold uppercase tracking-wider mb-3">
+          <i data-lucide="cpu" class="w-3.5 h-3.5"></i>
+          <span>Engineering Mastery</span>
+        </div>
+        <h2 class="font-heading font-black text-3xl sm:text-4xl lg:text-5xl text-slate-900 dark:text-white mb-4">
+          Our Core Services: Tech Stack Expertise
+        </h2>
+        <p class="text-slate-600 dark:text-slate-300 text-base sm:text-lg">
+          We use the right tools for powerful solutions, modern business, valuable results, enterprise security, and long-term maintainability.
+        </p>
+      </div>
+
+      <!-- 20 Official Tech Stack Cards Grid with Official SVG/Devicon Icons -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        
+        <!-- 1. React.js -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-cyan-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-react-original colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">React.js</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Reactive modern interfaces & Next.js SPAs</p>
+        </div>
+
+        <!-- 2. Express.js -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-slate-400/60 transition-all duration-300 hover:shadow-lg group">
+          <div class="w-12 h-12 rounded-xl bg-slate-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform text-slate-700 dark:text-slate-200">
+            <i class="devicon-express-original"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">Express.js</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">High-speed REST APIs & microservices</p>
+        </div>
+
+        <!-- 3. Node.js -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-emerald-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-nodejs-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">Node.js</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Asynchronous high-concurrency runtime</p>
+        </div>
+
+        <!-- 4. Python -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-amber-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-python-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">Python</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">AI automation, scrapers & backend pipelines</p>
+        </div>
+
+        <!-- 5. .NET MVC -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-purple-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-dot-net-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">.NET MVC</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Enterprise C# architectures & ERPs</p>
+        </div>
+
+        <!-- 6. C# Selenium -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-green-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-green-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-selenium-original colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">C# Selenium</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Automated QA testing & browser bots</p>
+        </div>
+
+        <!-- 7. Vue.js -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-emerald-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-vuejs-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">Vue.js</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Intuitive progressive web applications</p>
+        </div>
+
+        <!-- 8. API Building -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-sky-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-sky-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-sky-500/10 flex items-center justify-center text-sky-500 text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i data-lucide="network" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">API Building</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">RESTful & GraphQL high-throughput endpoints</p>
+        </div>
+
+        <!-- 9. AI-Driven Coding -->
+        <div class="tech-card p-5 rounded-2xl border border-cyan-500/40 bg-gradient-to-b from-cyan-950/20 to-transparent dark:bg-[#0f1422] hover:border-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 group">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center text-cyan-400 text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i data-lucide="bot" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-heading font-bold text-cyan-400 text-base">AI-Driven Coding</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">LLM integration, autonomous agents & prompt tools</p>
+        </div>
+
+        <!-- 10. Integrations -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-indigo-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-500 text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i data-lucide="workflow" class="w-7 h-7"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">Integrations</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Payment gateways, webhooks & CRM sync</p>
+        </div>
+
+        <!-- 11. HTML5 -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-orange-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-html5-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">HTML5</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Semantic, accessible & SEO-ranked markup</p>
+        </div>
+
+        <!-- 12. CSS3 -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-blue-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-css3-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">CSS3</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Tailwind CSS, fluid layout & cyber UI styling</p>
+        </div>
+
+        <!-- 13. Core PHP -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-indigo-400/60 transition-all duration-300 hover:shadow-lg group">
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-php-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">Core PHP</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Solid backend scripts, legacy code refactoring</p>
+        </div>
+
+        <!-- 14. Laravel -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-red-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-red-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-laravel-original colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">Laravel</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Elegant MVC frameworks & SaaS backends</p>
+        </div>
+
+        <!-- 15. WordPress & WooCommerce -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-sky-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-sky-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-sky-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-wordpress-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">WordPress & Woo</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Custom themes, plugins & e-commerce stores</p>
+        </div>
+
+        <!-- 16. PostgreSQL -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-blue-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-postgresql-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">PostgreSQL</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">ACID-compliant relational data modeling</p>
+        </div>
+
+        <!-- 17. MySQL -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-orange-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-orange-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-mysql-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">MySQL</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">High-scale query indexing & relational storage</p>
+        </div>
+
+        <!-- 18. SQL Server -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-red-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-red-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-microsoftsqlserver-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">SQL Server</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Microsoft enterprise transactional warehousing</p>
+        </div>
+
+        <!-- 19. TypeScript -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-blue-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-typescript-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">TypeScript</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Zero runtime bugs & strict type contracts</p>
+        </div>
+
+        <!-- 20. jQuery -->
+        <div class="tech-card p-5 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] hover:border-cyan-400/60 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/10 group">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-3xl mb-3 group-hover:scale-110 transition-transform">
+            <i class="devicon-jquery-plain colored"></i>
+          </div>
+          <h3 class="font-heading font-bold text-slate-900 dark:text-white text-base">jQuery</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Reliable DOM scripting & legacy modernization</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- COMPLETE WEBSITE SOLUTIONS (Exact Core Copy from KADARTECH) -->
+  <!-- ========================================================================= -->
+  <section id="solutions" class="py-24 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs font-semibold uppercase tracking-wider mb-3">
+          <i data-lucide="compass" class="w-3.5 h-3.5"></i>
+          <span>End-to-End Capabilities</span>
+        </div>
+        <h2 class="font-heading font-black text-3xl sm:text-4xl lg:text-5xl text-slate-900 dark:text-white mb-4">
+          Your Complete Website Solution, All in One Place.
+        </h2>
+        <p class="text-slate-600 dark:text-slate-300 text-base sm:text-lg">
+          <strong class="font-bold text-slate-900 dark:text-white">Strategy. Design. Development. Growth.</strong><br />
+          WordPress, E-Commerce, Design, SEO & Maintenance — everything your business requires to lead online.
+        </p>
+      </div>
+
+      <!-- Solutions Grid with Official Basic Icons -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- 1. WordPress Development -->
+        <div class="glass-card p-8 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col justify-between hover:border-cyan-400/60 transition-all hover:-translate-y-1 hover:shadow-xl">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-cyan-500/10 text-cyan-500 flex items-center justify-center mb-6 text-3xl">
+              <i class="devicon-wordpress-plain colored"></i>
+            </div>
+            <span class="text-xs font-mono font-semibold uppercase tracking-wider text-cyan-600 dark:text-cyan-400">Custom & Managed</span>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white mt-1 mb-3">WordPress Development</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4">
+              We build powerful, secure, easy-to-manage, and fully customizable WordPress websites that you can update yourself. Perfect for businesses that want complete control without technical headaches.
+            </p>
+            <ul class="space-y-2 mb-6 text-xs text-slate-500 dark:text-slate-400 font-medium">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-400"></i> Custom Theme & Plugin Architecture</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-400"></i> Elementor, Gutenberg & ACF Integration</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-400"></i> Zero-Bloat, Supercharged Performance</li>
+            </ul>
+          </div>
+          <button onclick="openOfferModal('WordPress Development')" class="inline-flex items-center gap-2 text-sm font-semibold text-cyan-600 dark:text-cyan-400 hover:underline">
+            <span>Build WordPress Site -&gt;</span>
+          </button>
+        </div>
+
+        <!-- 2. E-Commerce Solutions -->
+        <div class="glass-card p-8 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col justify-between hover:border-emerald-400/60 transition-all hover:-translate-y-1 hover:shadow-xl">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-500 flex items-center justify-center mb-6 text-3xl">
+              <i class="devicon-woocommerce-plain colored"></i>
+            </div>
+            <span class="text-xs font-mono font-semibold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">High-Converting Stores</span>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white mt-1 mb-3">E-Commerce Solutions</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4">
+              Online stores built to sell. From compelling product pages and frictionless checkout to secure payment gateways and automated inventory management, we create high-converting online stores that turn browsers into loyal buyers.
+            </p>
+            <ul class="space-y-2 mb-6 text-xs text-slate-500 dark:text-slate-400 font-medium">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Shopify, WooCommerce & Custom Stores</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Stripe, PayPal, Razorpay & UPI Gateways</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Abandoned Cart & Upsell Automations</li>
+            </ul>
+          </div>
+          <button onclick="openOfferModal('E-Commerce Solutions')" class="inline-flex items-center gap-2 text-sm font-semibold text-emerald-600 dark:text-emerald-400 hover:underline">
+            <span>Launch Your Store -&gt;</span>
+          </button>
+        </div>
+
+        <!-- 3. Web Design & Development -->
+        <div class="glass-card p-8 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col justify-between hover:border-indigo-400/60 transition-all hover:-translate-y-1 hover:shadow-xl">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-indigo-500/10 text-indigo-500 flex items-center justify-center mb-6">
+              <i data-lucide="laptop" class="w-7 h-7"></i>
+            </div>
+            <span class="text-xs font-mono font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">Modern & Responsive</span>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white mt-1 mb-3">Web Design & Development</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4">
+              Modern, responsive, beautiful websites. Mobile-first designs that load lightning-fast and look stunning on every screen. Your brand receives an authoritative digital presence that builds trust instantly.
+            </p>
+            <ul class="space-y-2 mb-6 text-xs text-slate-500 dark:text-slate-400 font-medium">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-indigo-400"></i> Next.js, React & Tailwind CSS Architecture</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-indigo-400"></i> Ultra-Fast 99+ Google Lighthouse Scores</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-indigo-400"></i> Fluid Animations & Cyber UI Styling</li>
+            </ul>
+          </div>
+          <button onclick="openOfferModal('Web Design & Development')" class="inline-flex items-center gap-2 text-sm font-semibold text-indigo-600 dark:text-indigo-400 hover:underline">
+            <span>Create Modern Website -&gt;</span>
+          </button>
+        </div>
+
+        <!-- 4. Website Redesign -->
+        <div class="glass-card p-8 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col justify-between hover:border-amber-400/60 transition-all hover:-translate-y-1 hover:shadow-xl">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mb-6">
+              <i data-lucide="refresh-cw" class="w-7 h-7"></i>
+            </div>
+            <span class="text-xs font-mono font-semibold uppercase tracking-wider text-amber-600 dark:text-amber-400">Brand Modernization</span>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white mt-1 mb-3">Website Redesign</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4">
+              Refresh your outdated website. Transform slow, outdated, and low-converting sites into modern, high-performing digital platforms that mirror your company's true prestige and drive measurable ROI.
+            </p>
+            <ul class="space-y-2 mb-6 text-xs text-slate-500 dark:text-slate-400 font-medium">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400"></i> Comprehensive UX & Conversion Audit</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400"></i> 100% SEO & Organic Traffic Preservation</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400"></i> Modern Cyber Polish & Mobile Refresh</li>
+            </ul>
+          </div>
+          <button onclick="openOfferModal('Website Redesign')" class="inline-flex items-center gap-2 text-sm font-semibold text-amber-600 dark:text-amber-400 hover:underline">
+            <span>Redesign Outdated Site -&gt;</span>
+          </button>
+        </div>
+
+        <!-- 5. Local SEO -->
+        <div class="glass-card p-8 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col justify-between hover:border-sky-400/60 transition-all hover:-translate-y-1 hover:shadow-xl">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-sky-500/10 text-sky-500 flex items-center justify-center mb-6">
+              <i data-lucide="map-pin" class="w-7 h-7"></i>
+            </div>
+            <span class="text-xs font-mono font-semibold uppercase tracking-wider text-sky-600 dark:text-sky-400">Dominance on Search</span>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white mt-1 mb-3">Local SEO</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4">
+              Get found by local customers. Rank higher on Google Maps and regional search results so nearby customers find you first. Ideal for shops, clinics, restaurants, and local service enterprises.
+            </p>
+            <ul class="space-y-2 mb-6 text-xs text-slate-500 dark:text-slate-400 font-medium">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-sky-400"></i> Google Business Profile Optimization</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-sky-400"></i> Local Keyword & Citation Architecture</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-sky-400"></i> Review Generation & Map Pack Ranking</li>
+            </ul>
+          </div>
+          <button onclick="openOfferModal('Local SEO')" class="inline-flex items-center gap-2 text-sm font-semibold text-sky-600 dark:text-sky-400 hover:underline">
+            <span>Rank Higher Locally -&gt;</span>
+          </button>
+        </div>
+
+        <!-- 6. Support & Maintenance -->
+        <div class="glass-card p-8 rounded-3xl border border-slate-200 dark:border-slate-800 flex flex-col justify-between hover:border-rose-400/60 transition-all hover:-translate-y-1 hover:shadow-xl">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-rose-500/10 text-rose-500 flex items-center justify-center mb-6">
+              <i data-lucide="shield-check" class="w-7 h-7"></i>
+            </div>
+            <span class="text-xs font-mono font-semibold uppercase tracking-wider text-rose-600 dark:text-rose-400">24/7 Peace of Mind</span>
+            <h3 class="font-heading font-bold text-2xl text-slate-900 dark:text-white mt-1 mb-3">Support & Maintenance</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4">
+              Keep your website running smoothly. Regular updates, proactive security monitoring, backups, and technical support so your website stays fast, secure, and always online.
+            </p>
+            <ul class="space-y-2 mb-6 text-xs text-slate-500 dark:text-slate-400 font-medium">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-rose-400"></i> 24/7 Uptime & Performance Monitoring</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-rose-400"></i> Automated Cloud Backups & Malware Scans</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-rose-400"></i> Rapid SLA Ticket Resolution</li>
+            </ul>
+          </div>
+          <button onclick="openOfferModal('Support & Maintenance')" class="inline-flex items-center gap-2 text-sm font-semibold text-rose-600 dark:text-rose-400 hover:underline">
+            <span>Protect Your Site -&gt;</span>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- CREDIBILITY & METRICS (From KADARTECH Original Project) -->
+  <!-- ========================================================================= -->
+  <section class="py-20 border-t border-slate-200 dark:border-slate-800 bg-white/50 dark:bg-slate-900/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        
+        <div class="metric-card p-6">
+          <div class="counter text-4xl sm:text-5xl font-black font-heading text-blue-600 dark:text-blue-400 mb-2" data-target="80">
+            80+
+          </div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            Happy Clients
+          </p>
+        </div>
+
+        <div class="metric-card p-6">
+          <div class="counter text-4xl sm:text-5xl font-black font-heading text-purple-600 dark:text-purple-400 mb-2" data-target="200">
+            200+
+          </div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            Projects Delivered
+          </p>
+        </div>
+
+        <div class="metric-card p-6">
+          <div class="counter text-4xl sm:text-5xl font-black font-heading text-emerald-600 dark:text-emerald-400 mb-2" data-target="98">
+            98%
+          </div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            Client Satisfied
+          </p>
+        </div>
+
+        <div class="metric-card p-6">
+          <div class="counter text-4xl sm:text-5xl font-black font-heading text-pink-600 dark:text-pink-400 mb-2" data-target="20">
+            20+
+          </div>
+          <p class="text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            Experts Team
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- FAQ ACCORDION -->
+  <!-- ========================================================================= -->
+  <section id="faq" class="py-24 relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-16">
+        <span class="text-xs font-mono font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Got Questions?</span>
+        <h2 class="font-heading font-black text-3xl sm:text-4xl text-slate-900 dark:text-white mt-1">Frequently Asked Questions</h2>
+      </div>
+
+      <div id="faq-accordion" class="space-y-4">
+        
+        <div class="faq-item rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] overflow-hidden">
+          <button class="faq-question w-full p-6 text-left font-heading font-bold text-lg text-slate-900 dark:text-white flex items-center justify-between gap-4">
+            <span>How does the Festival Mega Offer work?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-6 text-sm text-slate-600 dark:text-slate-300 leading-relaxed hidden">
+            During the 2026 Festival season, you can book multi-site packs (3 sites for $250 or 9 sites for $600), single sites ($100), mobile apps ($120), or custom software ($800) at up to 60% below standard market rates. Slots are strictly limited and honored on a first-booked, first-served queue until December 31, 2026.
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] overflow-hidden">
+          <button class="faq-question w-full p-6 text-left font-heading font-bold text-lg text-slate-900 dark:text-white flex items-center justify-between gap-4">
+            <span>Is the AI Chatbot really 100% free?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-6 text-sm text-slate-600 dark:text-slate-300 leading-relaxed hidden">
+            Yes! Every package booked under the Festival Offer includes a custom AI Chatbot agent programmed for your business ($300 value) without any recurring software license fees from us. It answers customer questions 24/7 and forwards leads directly to your WhatsApp or email.
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] overflow-hidden">
+          <button class="faq-question w-full p-6 text-left font-heading font-bold text-lg text-slate-900 dark:text-white flex items-center justify-between gap-4">
+            <span>What is the turnaround time for website delivery?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-6 text-sm text-slate-600 dark:text-slate-300 leading-relaxed hidden">
+            Single websites are delivered in a blazing 3 days. Multi-site bundles like the Starter Pack (3 sites) and Growth Pack (9 sites) are delivered in 5-day sprints. Mobile apps take approximately 10 days including backend APIs and admin panels.
+          </div>
+        </div>
+
+        <div class="faq-item rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0f1422] overflow-hidden">
+          <button class="faq-question w-full p-6 text-left font-heading font-bold text-lg text-slate-900 dark:text-white flex items-center justify-between gap-4">
+            <span>Do I receive full source code ownership?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-400 transition-transform"></i>
+          </button>
+          <div class="faq-answer px-6 pb-6 text-sm text-slate-600 dark:text-slate-300 leading-relaxed hidden">
+            Absolutely. You receive 100% full source code ownership, repository access, and deployment documentation. There are zero platform lock-ins or hidden monthly hosting fees from KADARTECH.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- CONTACT & WHATSAPP ESTIMATOR -->
+  <!-- ========================================================================= -->
+  <section id="contact" class="py-24 relative bg-slate-100/50 dark:bg-slate-900/20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="glass-card rounded-3xl p-8 sm:p-12 border border-slate-200 dark:border-slate-800 shadow-xl">
+        <div class="text-center max-w-xl mx-auto mb-10">
+          <span class="text-xs font-mono font-bold uppercase tracking-widest text-blue-600 dark:text-blue-400">Direct Contact</span>
+          <h2 class="font-heading font-black text-3xl text-slate-900 dark:text-white mt-1">
+            Lock In Your Festival Slot Now
+          </h2>
+          <p class="text-slate-600 dark:text-slate-400 text-sm mt-2">
+            Send us your project details directly or click WhatsApp to chat immediately with an engineer.
+          </p>
+        </div>
+
+        <form id="project-form" class="space-y-6">
+          <div id="form-feedback" class="hidden p-4 rounded-xl text-sm font-semibold"></div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label for="client-name" class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">Your Name</label>
+              <input type="text" id="client-name" required placeholder="Altaf Shaikh" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            </div>
+
+            <div>
+              <label for="client-phone" class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">WhatsApp / Phone Number</label>
+              <input type="tel" id="client-phone" placeholder="+91 9359086445" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            </div>
+          </div>
+
+          <div>
+            <label for="client-service" class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">Preferred Festival Offer</label>
+            <select id="client-service" class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <option value="Growth Pack (9 Websites - $600)">Growth Pack (9 Websites for $600) — Best Value</option>
+              <option value="Starter Pack (3 Websites - $250)">Starter Pack (3 Websites for $250)</option>
+              <option value="Single Website ($100)">Single Website ($100)</option>
+              <option value="Mobile Application ($120)">Mobile Application ($120)</option>
+              <option value="Custom Software / SaaS ($800)">Custom Software / SaaS ($800)</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="client-message" class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-2">Project Requirements</label>
+            <textarea id="client-message" rows="3" placeholder="Describe your business, reference websites, or special features..." class="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center gap-4 pt-2">
+            <button type="button" id="whatsapp-submit-btn" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/30 transition-all hover:scale-105">
+              <i data-lucide="message-circle" class="w-5 h-5"></i>
+              <span>Book Priority on WhatsApp</span>
+            </button>
+
+            <button type="submit" class="w-full sm:w-auto px-8 py-4 rounded-xl border border-slate-300 dark:border-slate-700 hover:border-blue-500 font-bold text-sm text-slate-800 dark:text-slate-200 transition-colors">
+              Submit Web Inquiry
+            </button>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- FOOTER -->
+  <!-- ========================================================================= -->
+  <footer class="py-12 border-t border-slate-200 dark:border-slate-800/80 bg-white dark:bg-[#07090e] text-xs text-slate-500 dark:text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-bold">K</div>
+        <div>
+          <span class="font-heading font-black text-slate-900 dark:text-white text-base">KADARTECH Solutions</span>
+          <p class="text-[11px] text-slate-500">We Turn Ideas Into Intelligent Software and Digital Solutions.</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-6 font-semibold">
+        <a href="#offers" class="hover:text-blue-500">Offers</a>
+        <a href="#tech-stack" class="hover:text-blue-500">Tech Stack</a>
+        <a href="#solutions" class="hover:text-blue-500">Services</a>
+        <a href="https://wa.me/919359086445" target="_blank" class="text-emerald-500 hover:underline">WhatsApp: +91 9359086445</a>
+      </div>
+
+      <div>
+        &copy; 2026 KADARTECH Solutions. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- INTERACTIVE OFFER CLAIM MODAL -->
+  <!-- ========================================================================= -->
+  <div id="offer-modal" class="fixed inset-0 z-50 modal-backdrop hidden items-center justify-center p-4">
+    <div class="bg-white dark:bg-[#0f1422] rounded-3xl max-w-lg w-full p-8 border-2 border-blue-500 shadow-2xl relative">
+      
+      <button id="close-modal-btn" class="absolute top-5 right-5 text-slate-400 hover:text-slate-600 dark:hover:text-white p-2">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="text-center mb-6">
+        <span class="text-3xl">🎊</span>
+        <h3 class="font-heading font-black text-2xl text-slate-900 dark:text-white mt-2">Claim Festival Mega Deal</h3>
+        <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Includes 100% FREE AI Chatbot Agent ($300 value) & Priority Sprint Queue</p>
+      </div>
+
+      <form id="modal-claim-form" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1">Selected Package</label>
+          <select id="modal-offer-select" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white text-sm font-semibold">
+            <option value="Growth Pack (9 Websites - $600)">Growth Pack (9 Websites for $600) — Best Value (60% OFF)</option>
+            <option value="Starter Pack (3 Websites - $250)">Starter Pack (3 Websites for $250)</option>
+            <option value="Single Website ($100)">Single Website ($100)</option>
+            <option value="Mobile Application (Starting $120)">Mobile Application ($120)</option>
+            <option value="Custom Software / SaaS ($800)">Custom Software / SaaS ($800)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1">Your Full Name</label>
+          <input type="text" id="modal-client-name" required placeholder="e.g. Altaf Shaikh" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white text-sm" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1">WhatsApp / Phone Number</label>
+          <input type="tel" id="modal-client-phone" required placeholder="e.g. +91 9359086445" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white text-sm" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 mb-1">Project Notes (Optional)</label>
+          <textarea id="modal-client-notes" rows="2" placeholder="Any specific requirements or deadline details..." class="w-full px-4 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white text-sm"></textarea>
+        </div>
+
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-black text-sm uppercase tracking-wider shadow-lg shadow-blue-500/25 transition-transform hover:scale-[1.02]">
+          Confirm Slot on WhatsApp -&gt;
+        </button>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- STICKY FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/919359086445?text=Hello%20KADARTECH%2C%20I%20want%20to%20claim%20the%20Festival%20Offer." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center shadow-xl whatsapp-pulse transition-transform hover:scale-110" aria-label="Chat on WhatsApp">
+    <i data-lucide="message-circle" class="w-7 h-7"></i>
+  </a>
+
+  <!-- Script Controller -->
+  <script src="script.js"></script>
+</body>
+</html>
